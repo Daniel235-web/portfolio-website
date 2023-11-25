@@ -5,6 +5,8 @@ import { LuGraduationCap } from "react-icons/lu";
 import hotelManagement from "@/public/hotelManagement.png";
 import MernRealEstate from "@/public/MernRealEstate.png";
 import Saas from "@/public/Saas.png";
+import centdoorImg from "@/public/centdoorImg.png";
+import souquifyImg from "@/public/souquifyImg.png";
 
 export const links = [
   {
@@ -62,25 +64,68 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "hotel_Management Project",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "I Created this hotel management website for customers to chill and have a good time with families or spouses.",
+    tags: [
+      "React",
+      "Next.js",
+      "Sanity.IO",
+      "Tailwind",
+      "google Apis",
+      "CMS",
+      "Stripe Integration",
+      "Typescript",
+    ],
     imageUrl: hotelManagement,
   },
   {
-    title: "rmtDev",
+    title: "Mern_Real_Estate_project",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "I built this Mern real estate website. SED Estate is a top real estate agency that helps clients buy, sell, and lease properties in sought-after neighborhoods.",
+    tags: [
+      "MONGODB",
+      "JavaScript",
+      "React",
+      "Tailwind",
+      "Redux",
+      "Node.Js",
+      "Express.js",
+      "insomnia: Open-source Api testing tool",
+      "JWT",
+      "firebase",
+      "Google OAuth",
+    ],
     imageUrl: MernRealEstate,
   },
   {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    title: "Saas_Project",
+    description: "created a Saas project for chatting with your documents",
+    tags: [
+      "React",
+      "Next.js",
+      "Prisma as ORM",
+      "Tailwind",
+      "tRPC & Zod",
+      "Kinde",
+      "stripe integration",
+      "shadcn-ui",
+      "Chatgpt API KEY",
+    ],
     imageUrl: Saas,
+  },
+  {
+    title: "Noc operator",
+    description:
+      "Worked as a NOC operator here playing a crucial role in monitoring, managing, and maintaining the integrity and efficiency of an organization's network infrastructure",
+    tags: ["Linux", "excel", "OWS"],
+    imageUrl: centdoorImg ,
+  },
+  {
+    title: "web scraper and a developer",
+    description: "worked as a web scraper and a software developer here",
+    tags: ["liquid", "javascript", "CSS/SCSS"],
+    imageUrl: souquifyImg ,
   },
 ] as const;
 
