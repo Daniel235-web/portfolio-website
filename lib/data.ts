@@ -37,28 +37,27 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Alx software engineering programme",
+    location: "Online, Kenya",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I created an Airbnb clone with my mate together then pushed to Github",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2022",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+    title: "web scraper and a full stack developer",
+    location: "Souqify.com",
+    description: " I worked as web scraper and a developer at souqify.com ",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Noc Operator ",
+    location: "Lagos, Ikoyi",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Worked as a NOC operator here playing a crucial role in monitoring, managing, and maintaining the integrity and efficiency of an organization's network infrastructure",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2022",
   },
 ] as const;
 
@@ -78,25 +77,25 @@ export const projectsData = [
       "Typescript",
     ],
     imageUrl: hotelManagement,
+    link: "https://hotel-management-website-five.vercel.app/",
   },
   {
     title: "Mern_Real_Estate_project",
     description:
-      "I built this Mern real estate website. SED Estate is a top real estate agency that helps clients buy, sell, and lease properties in sought-after neighborhoods.",
+      "I created a top-notch website for SED Estate using MERN, making it easy for people to buy, sell, and rent homes in popular neighborhoods.",
     tags: [
       "MONGODB",
-      "JavaScript",
+      "JS",
       "React",
       "Tailwind",
-      "Redux",
-      "Node.Js",
+      "Redux",,
       "Express.js",
-      "insomnia: Open-source Api testing tool",
+      "insomnia",
       "JWT",
-      "firebase",
-      "Google OAuth",
+      
     ],
     imageUrl: MernRealEstate,
+    link: "https://mern-estate-ya0i.onrender.com/",
   },
   {
     title: "Saas_Project",
@@ -113,19 +112,22 @@ export const projectsData = [
       "Chatgpt API KEY",
     ],
     imageUrl: Saas,
+    link: "https://saas-daniel235-web.vercel.app/",
   },
   {
     title: "Noc operator",
     description:
       "Worked as a NOC operator here playing a crucial role in monitoring, managing, and maintaining the integrity and efficiency of an organization's network infrastructure",
     tags: ["Linux", "excel", "OWS"],
-    imageUrl: centdoorImg ,
+    imageUrl: centdoorImg,
+    link: "https://centdoor.com/",
   },
   {
     title: "web scraper and a developer",
     description: "worked as a web scraper and a software developer here",
     tags: ["liquid", "javascript", "CSS/SCSS"],
-    imageUrl: souquifyImg ,
+    imageUrl: souquifyImg,
+    link: "https://souqify.com/",
   },
 ] as const;
 
@@ -139,6 +141,8 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
+  "linux",
+  "CMS",
   "Prisma",
   "MongoDB",
   "Redux",
@@ -149,4 +153,6 @@ export const skillsData = [
   "Python",
   "Django",
   "Framer Motion",
+  "Firebase",
+  "insomnia: For testing and debugging HTTP APIs",
 ] as const;
