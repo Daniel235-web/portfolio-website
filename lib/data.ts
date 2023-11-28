@@ -56,7 +56,7 @@ export const experiencesData = [
     location: "Lagos, Ikoyi",
     description:
       "Worked as a NOC operator here playing a crucial role in monitoring, managing, and maintaining the integrity and efficiency of an organization's network infrastructure",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(CgWorkAlt),
     date: "2022",
   },
 ] as const;
@@ -73,7 +73,7 @@ export const projectsData = [
       "Tailwind",
       "google Apis",
       "CMS",
-      "Stripe Integration",
+      "Stripe ",
       "Typescript",
     ],
     imageUrl: hotelManagement,
@@ -82,7 +82,7 @@ export const projectsData = [
   {
     title: "Mern_Real_Estate_project",
     description:
-      "I created a top-notch website for SED Estate using MERN, making it easy for people to buy, sell, and rent homes in popular neighborhoods.",
+      "I created a top-notch website for SED Estate using MERN,  for people to buy, sell, and rent homes in popular neighborhoods.",
     tags: [
       "MONGODB",
       "JS",
