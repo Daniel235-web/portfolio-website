@@ -7,25 +7,22 @@ export default function SubmitBtn() {
   const handleSubmit = async (e: { preventDefault: () => void }) => {
     e.preventDefault();
 
-    // Set the form to a pending state
+ 
     setPending(true);
 
     try {
-      // Perform your form submission logic here
-      // For example, you can use fetch or axios to send the form data to a server
-
-      // Simulating a delay for demonstration purposes
+    
       await new Promise((resolve) => setTimeout(resolve, 2000));
 
-      // After submission is complete, reset the pending state
+     
       setPending(false);
 
-      // Additional logic after successful submission if needed
+    
     } catch (error) {
-      // Handle any errors during form submission
+      
   
 
-      // Reset the pending state in case of an error
+      
       setPending(false);
     }
   };
