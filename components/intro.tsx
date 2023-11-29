@@ -79,8 +79,8 @@ export default function Intro() {
           href="#contact"
           className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
           onClick={() => {
-             setActiveSection("Contact");
-             setTimeOfLastClick(Date.now());
+            setActiveSection("Contact");
+            setTimeOfLastClick(Date.now());
           }}
         >
           Contact me here{" "}
@@ -89,7 +89,7 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/CV.pdf"
+          href="https://drive.google.com/u/0/uc?id=GUBGMHVpwcTsPFvNNVdG5DKtpv6UwksAfzw5aULcGzgG&export=download"
           download
         >
           Download CV{" "}
