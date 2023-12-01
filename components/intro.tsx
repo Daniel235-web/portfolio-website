@@ -92,7 +92,7 @@ export default function Intro() {
           href="https://docs.google.com/document/d/1_0SvAh72kSnF1FfedJMutT07sB2g7XamLKKG5ZYb1WQ/view"
           download
         >
-          Download CV{" "}
+          View CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
         <a
