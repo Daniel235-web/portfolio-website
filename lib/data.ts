@@ -44,13 +44,7 @@ export const experiencesData = [
     icon: React.createElement(LuGraduationCap),
     date: "2022",
   },
-  {
-    title: "web scraper and a full stack developer",
-    location: "Souqify.com",
-    description: " I worked as web scraper and a developer at souqify.com ",
-    icon: React.createElement(CgWorkAlt),
-    date: "2023",
-  },
+
   {
     title: "Noc Operator ",
     location: "Lagos, Ikoyi",
@@ -58,6 +52,13 @@ export const experiencesData = [
       "Worked as a NOC operator here playing a crucial role in monitoring, managing, and maintaining the integrity and efficiency of an organization's network infrastructure",
     icon: React.createElement(CgWorkAlt),
     date: "2022",
+  },
+  {
+    title: "web scraper and a full stack developer",
+    location: "Souqify.com",
+    description: " I worked as web scraper and a developer at souqify.com ",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023",
   },
 ] as const;
 

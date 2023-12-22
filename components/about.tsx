@@ -22,7 +22,7 @@ export default function About() {
         <span className="font-medium">
           fullstack software developer/engineer
         </span>{" "}
-        with a robust networking background. Over two years, I've contributed my
+        with a robust networking background. Over the years, I've contributed my
         expertise to esteemed companies like Smile and 9mobile through{" "}
         <span className="font-medium">
           <a href="https://centdoor.com/">"Centdoor.com" </a>
